@@ -10,7 +10,9 @@ namespace efcore.batchload.test
         {
             var optionBuilder = new DbContextOptionsBuilder<TestDbContext>();
             
-            optionBuilder.UseSqlServer("Server=localhost;Database=Playground;");
+            optionBuilder.UseSqlServer("Server=localhost;Database=Playground;"
+				,o => o.UseCompatibilityLevel(120) //Force efcore to use id in () instead of OpenJSON, when ids less than the threshold, where temp table not being used.  https://github.com/dotnet/efcore/issues/32394
+                );
 
             using var context = new TestDbContext(optionBuilder.Options);
 
