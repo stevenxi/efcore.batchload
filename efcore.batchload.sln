@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "efcore.batchload.data", "efcore.batchload.data\efcore.batchload.data.csproj", "{F8B07949-9A17-47D7-AC68-E192B71765EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "efcore.batchload.test", "efcore.batchload.test\efcore.batchload.test.csproj", "{2BEF6DAF-E0B8-4F9D-A42E-0B0F9137CDDA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F8B07949-9A17-47D7-AC68-E192B71765EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8B07949-9A17-47D7-AC68-E192B71765EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8B07949-9A17-47D7-AC68-E192B71765EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8B07949-9A17-47D7-AC68-E192B71765EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BEF6DAF-E0B8-4F9D-A42E-0B0F9137CDDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BEF6DAF-E0B8-4F9D-A42E-0B0F9137CDDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BEF6DAF-E0B8-4F9D-A42E-0B0F9137CDDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BEF6DAF-E0B8-4F9D-A42E-0B0F9137CDDA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9113A0AE-C597-4FA6-86A7-3B01398DD83D}
+	EndGlobalSection
+EndGlobal
